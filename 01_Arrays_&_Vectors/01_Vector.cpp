@@ -19,14 +19,11 @@ int main()
 	// Fill constuctor
 	vector<int> arr(5, 12);
 
-	// iteration
-	cout << "iteration using index: ";
 	for (int i = 0; i < arr.size(); i++) {
 		cout << arr[i] << " ";
 	}
 	cout << endl;
 
-	cout << "iteration using ";
 	for (int curr : arr) {
 		cout << curr << " ";
 	}
