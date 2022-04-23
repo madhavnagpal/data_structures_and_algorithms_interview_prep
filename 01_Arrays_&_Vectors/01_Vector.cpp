@@ -42,5 +42,11 @@ int main()
 	// Capacity of Vector
 	cout << "capacity: " << arr.capacity() << endl;
 
+	// Accessing last element
+	cout << arr.back() << endl;
+
+	// modifying last element
+	arr.back() = 100;
+
 	return 0;
 }
