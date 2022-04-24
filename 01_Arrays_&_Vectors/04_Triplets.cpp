@@ -4,6 +4,8 @@
 #include<unordered_set>
 using namespace std;
 
+// TRIPLET SUM
+
 vector<vector<int>> findTriplets(vector<int>arr, int n, int S) {
 	sort(arr.begin(), arr.end());
 	vector<vector<int>> result = {};
